@@ -8,12 +8,13 @@ iteration
 
 for x,y in enumerate(list):
 
-string peration
+string 0peration
 
 string to num  int() float() eval()
 num to string  str()
 list to string  "".join(['a','b'])
 string to list  "a b c".split(" ")
+str.find(substr, beg=0, end=len(string)) return the starting index of found substr in str, -1 if not found
 
 list operation
 
