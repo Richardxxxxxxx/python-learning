@@ -49,6 +49,10 @@ map(lambda x, y: x + y, [1, 3, 5, 7, 9], [2, 4, 6, 8, 10])
 import functools
 functools.reduce(lambda x, y: x + y, [2, 4, 6, 8, 10])
 
+a input process:
+age = input("in put formate like:12 13 15 15\n")
+list(map(lambda x : int(x),age.split(" ")))
+
 file operation
 
 input = open('data', 'r')
