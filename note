@@ -1,3 +1,13 @@
+char operation
+# Get the ASCII number of a character
+number = ord(char)
+# Get the character given by an ASCII number
+char = chr(number)
+
+iteration
+
+for x,y in enumerate(list):
+
 string peration
 
 string to num  int() float() eval()
@@ -59,6 +69,8 @@ list(zip(*a)) [(1, 4), (2, 5), (3, 6)]
 list(zip(*zip(*a))) [(1, 2, 3), (4, 5, 6)]
 a,b = [1,2,3],[4,5,6]
 list(zip(a,b)) [(1, 4), (2, 5), (3, 6)]
+
+
 
 file operation
 
