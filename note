@@ -16,6 +16,18 @@ list to string  "".join(['a','b'])
 string to list  "a b c".split(" ")
 str.find(substr, beg=0, end=len(string)) return the starting index of found substr in str, -1 if not found
 
+(  ) tuple
+{ }  set or dictionary set(), dict(tuple)
+[ ]  list
+
+set operation
+set(list)
+<set>.add()
+<set>.clear()
+<set1> - <set1>.intersection(<set2>) == <set1>.difference(<set2>)
+<set1>.union(<set2>)
+<set>.discard() #remove() will thorw exception when value doesn't exit but discard() won't
+
 list operation
 
 <seq> + <seq> Concatenation
@@ -73,7 +85,7 @@ list(zip(a,b)) [(1, 4), (2, 5), (3, 6)]
 
 
 
-file operation
+ffile operation
 
 input = open('data', 'r')
 input = open('data', 'rb')
