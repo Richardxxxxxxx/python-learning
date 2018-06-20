@@ -26,6 +26,9 @@ set(list)
 <set>.clear()
 <set1> - <set1>.intersection(<set2>) == <set1>.difference(<set2>)
 <set1>.union(<set2>)
+& intersection
+| union
+- difference
 <set>.discard() #remove() will thorw exception when value doesn't exit but discard() won't
 
 list operation
