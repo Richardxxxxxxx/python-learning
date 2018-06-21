@@ -64,9 +64,10 @@ Method
 del <dict>[<key>]  Deletes the specified entry.
 <dict>.clear() Deletes all entries.
 for <var> in <dict>: Loop over the keys.
-(default value set to be 0, neccessary when you count frequency:http://www.cnblogs.com/duyang/p/5065418.html?utm_source=tuicool&utm_medium=referral)
+(neccessary when you count frequency:http://www.cnblogs.com/duyang/p/5065418.html?utm_source=tuicool&utm_medium=referral)
 from collections import defaultdict
-dic = defaultdict(int)
+dic = defaultdict(int)         default set to be 0
+dic = defaultdict(labmda : 10) default set to be 10
 
 2.x
 sorted(dict.items(), lambda x, y: cmp(x[1], y[1]), reverse=True) sort by value.
